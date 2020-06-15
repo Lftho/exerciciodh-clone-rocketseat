@@ -134,6 +134,10 @@ a.login {
 .campeao-background {
   background: rgb(113, 89, 193);
   padding: 60px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .campeao-background .trofeu {
@@ -145,7 +149,7 @@ a.login {
 }
 
 .campeao-background .trofeu > div {
-  width: 515px;
+  width: 1515px;
 }
 
 .campeao-background .trofeu > div h2 {
