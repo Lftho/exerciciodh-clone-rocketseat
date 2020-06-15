@@ -1,0 +1,485 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  transition: all .3s ease 0s;
+  padding: 10px 0px;
+  
+}
+
+header div.header {
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  max-width: 1070px;
+  padding: 0px 40px;
+  margin: 0px auto;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.navigation > ul > li {
+  margin: 0px 0px 0px 30px;
+}
+
+.navigation > ul > li a {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation > ul > li a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+.rede-social > a {
+  padding: 0px 10px;
+}
+
+a.login {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 10px 20px;
+  color: rgb(113, 89, 193);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*-------------- Segunda Section ----------------*/
+/* Distancia entre o conteudo e o header */
+.pai-tudo {
+  padding: 60px 0px;
+}
+
+.pai-tudo .pai {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pai-filho {
+  max-width: 1070px;
+  padding: 0 30px;
+  margin: 0px auto;
+}
+
+.pai-filho-teste .pai > div{
+  width: calc(50% - 10px);
+}
+
+.pai-filho-teste .pai > div h2 {
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  line-height: 48px;
+  font-family: sans-serif;
+}
+
+.pai-filho-teste .pai > div p {
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  margin: 10px 0px 0px;
+}
+
+.pai-filho-teste .pai > div a {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  cursor: pointer;
+}
+
+/* terceita parte */
+
+.campeao-background {
+  background: rgb(113, 89, 193);
+  padding: 60px 0px;
+}
+
+.campeao-background .trofeu {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.campeao-background .trofeu > div {
+  width: 515px;
+}
+
+.campeao-background .trofeu > div h2 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  line-height: 48px;
+  font-family: sans-serif;
+}
+
+.campeao-background .trofeu > div h3 {
+  color: rgb(221, 213, 248);
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 52px;
+}
+
+.campeao-background .trofeu > div p {
+  color: rgb(221, 213, 248);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* quarta parte */
+
+.project {
+  padding: 60px 0px;
+}
+
+.project .project-starter {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-bootcamp {
+  max-width: 1070px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.project .project-starter > div {
+  width: calc(50% - 10px);
+}
+
+.project .project-starter > div h2 img {
+  margin-right: 30px;
+}
+
+.project .project-starter > div h2 {
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 48px;
+}
+
+.project h2 {
+  display: flex;
+  align-items: center;
+}
+
+.project .project-starter > div p {
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  font-family: sans-serif;
+  margin: 10px 0px 0px;
+}
+
+.project .project-starter > div a {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  cursor: pointer;
+}
+
+/* quinta parte */
+
+.comuni-acesso {
+  padding: 60px 0px;
+  background-color: rgb(241, 239, 255);
+}
+
+.comuni-acesso .comuni-home {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  max-width: 1070px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.comuni-acesso .comuni-home > div {
+  width: calc(50% - 10px);
+}
+
+.comuni-acesso .comuni-home > div h2 {
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 48px;
+}
+
+.comuni-acesso .comuni-home > div p {
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  font-family: sans-serif;
+  margin: 10px 0px 0px;
+}
+
+.comuni-acesso .comuni-home > div a {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  margin: 15px 0px 0px;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+  cursor: pointer;
+}
+
+/* Sexta parte */
+
+.parceiro-impulso {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.parceiro-impulso .bossabox {
+  flex-direction: column;
+}
+
+.parceiro-impulso .bossabox {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impulso {
+  max-width: 1070px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.parceiro-impulso .bossabox h2 {
+  color: rgb(75, 75, 75);
+  font-size: 36px;
+  font-family: sans-serif;
+  line-height: 48px;
+}
+
+.parceiro-impulso .bossabox p {
+  color: rgb(154, 142, 191);
+  font-size: 18px;
+  line-height: 32px;
+  font-family: sans-serif;
+  margin: 10px 0px 0px;
+}
+
+.parceiro-impulso .bossabox > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.parceiro-impulso .bossabox > div a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(50% - 16px);
+  height: 80px;
+  padding: 40px;
+  line-height: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 15px 0px 0px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(113, 89, 193);
+  transition: all 150ms linear 0s;
+
+}
+
+.parceiro-impulso .bossabox > div a span {
+  display: flex;
+  align-items: center;
+}
+
+.parceiro-impulso .bossabox > div a span img {
+  position: relative;
+  top: 1.6px;
+  height: 11px;
+  width: auto;
+  margin-left:15px ;
+}
+
+/* Sétimo parte */
+
+.footer-image {
+  display: flex;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  overflow: hidden;
+  padding: 10px 0px;
+}
+
+.footer-image section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.footer-image section > div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-image section form {
+  margin-left: 30px;
+  z-index: 2;
+}
+
+.footer-image section form strong {
+  font-size: 24px;
+}
+
+.footer-image section form p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 2px;
+}
+
+.footer-image section form > div {
+  height: 48px;
+  display: flex;
+
+  align-items: center;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 0px 20px;
+
+}
+
+.footer-image section form > div input {
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  flex-direction: 1 1 0%;
+  font-family: sans-serif;
+
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+.footer-image section form > div button {
+  background-color: transparent;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  position: relative;
+  left: 70px;
+  cursor: pointer;
+}
+
+/* Oitava parte */
+
+.direitos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1010px;
+  color: rgb(102, 102, 102);
+  margin: 0px auto;
+  padding: 25px 10px;
+}
+
+.direitos strong {
+  font-weight: 500;
+}
+
+.direitos strong b {
+  font-weight: bold;
+}
+
+.direitos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direitos ul li {
+  line-height: 28px;
+}
+
+.direitos ul li a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+.direitos ul li:not(:last-child)::after {
+  content: "-";
+  color: rgb(102, 102, 102);
+  margin: 0px 4px;
+}
